@@ -1,6 +1,8 @@
 # hashFilesFromImages
 Small script for hashing files in forensic images using tools from The Sleuth kit!
 
+The type of hash can be altered in the script. Default is sha256.
+
 ```
 ~/Desktop/Work$ ./hashFilesFromImages.sh test/
 Processing test/dfr-15-xfat.dd
