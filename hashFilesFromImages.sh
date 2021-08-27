@@ -6,7 +6,7 @@
 HASHTYPE="256"
 
 if [[ $# < 2 ]] ; then
-    echo 'hashFilesFromImages.sh w||c <PATH TO IMAGES> <HASHFILE>'
+    echo 'hashFilesFromImages.sh w||r <PATH TO IMAGES> <HASHFILE>'
     echo 'hashFilesFromImages.sh w testImages/   <--   hashes all images in testImages and writes output to testImages/<IMAGENAME>.txt'
     echo 'hashFilesFromImages.sh r testImages/ hashes.txt   <--   check if hash(es) specified in hashes.txt matches in testImages/'
     exit 0
